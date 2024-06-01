@@ -1,0 +1,287 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Noto Serif Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.left {
+    width: 30vw;
+}
+
+.right {
+    width: 100%;
+    position: relative;
+}
+
+.bgblack {
+    background-color: black;
+    color: white;
+}
+
+.bggrey {
+    background-color: rgb(33, 27, 27);
+}
+
+.bggrey2 {
+    background-color: rgb(16, 14, 14);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 10%;
+}
+
+.header>* {
+    padding-bottom: 20px;
+}
+
+.content {
+    display: block;
+    position: absolute;
+    left: 40%;
+    top: 2%;
+}
+
+.search {
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    top: 2%;
+    left: 1%;
+}
+
+.search input {
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 8px 12px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.search input::placeholder {
+    color: #fff;
+}
+
+.all-songs-link {
+    /* margin: 290px 0px 0px 485px;    */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-songs-link button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.start-container button:hover {
+    background-color: #45a049;
+}
+
+.head-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content h1 {
+    text-align: right;
+}
+
+.cardcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 30px;
+}
+
+.songlist{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    margin: 30px;
+}
+
+.mood-card {
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.mood-card {
+    padding: 50px 0px;
+}
+
+.song-card {
+    background-color: rgb(16, 14, 14);
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.song-card .info {
+    padding: 10px;
+}
+
+.song-card .playnow {
+    padding: 0 10px;
+}
+
+.song-card .playnow button {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+.song-card .playnow button:hover {
+    background-color: #45a049;
+}
+
+#audio-player-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#audio-player {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#player-controls {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+#player-controls button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+#player-controls button:hover {
+    background-color: #45a049;
+}
+
+/* Additional styles for general layout */
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    padding-top: 14px;
+    padding: 15px 5px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.heading img {
+    width: 30px;
+}
+
+.lib {
+    min-height: 80vh;
+    position: relative;
+}
+
+.footer {
+    display: flex;
+    font-size: 10px;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
+    padding: 14px 0;
+}
+
+.footer a {
+    color: gray;
+}
+
+.right {
+    margin: 16px 0px;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-image: url(images/Shivam.png);
+    background-size: cover;
+    padding: 10%;
+}
+
+.header>* {
+    padding-bottom: 20px;
+}
+
+.abovebar {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.abovebar a {
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.rounded {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.playlists{
+    padding: 20px;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.controls button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}

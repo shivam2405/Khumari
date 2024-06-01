@@ -1,0 +1,52 @@
+{
+    "delight": [
+        {"title": "Playing God", "artist": "Polyphia", "file": "god.mp3"},
+        {"title": "Raag Hamasdhwani", "artist": "Vedang Kulkarni", "file": "Delight hamas.mp3"},
+        {"title": "Raag Yaman", "artist": "Suprojeet Banerjee", "file": "Delight hamas.mp3"},
+        {"title": "Raag Bhupali", "artist": "Shiv Kumar Sharma", "file": "Delight Bihag.mp3"},
+        {"title": "Raag Pahadi", "artist": "Ali Akbar Khan", "file": "Delight Bihag.mp3"},
+        {"title": "Raag Kedar", "artist": "Amjad Ali", "file": "Delight Bihag.mp3"}
+    ],
+    "longing": [
+        {"title": "Raag Bhairavi", "artist": "Ustad Vilayat Khan", "file": "Longing Bhairavi.mp3"},
+        {"title": "Raag Bhimpalashi", "artist": "Amjab Ali Khan", "file": "Longing Bhairavi.mp3"},
+        {"title": "Raag JhinJhoti", "artist": "Yogesh Samsi", "file": "Longing Bhairavi.mp3"},
+        {"title": "Raag Desh", "artist": "SS Sharma,", "file": "Longing Bhairavi.mp3"},
+        {"title": "Yaman Kalyan", "artist": "Apurva Kumar", "file": "Longing Bhairavi.mp3"},
+        {"title": "Puriya Dhanashree", "artist": "Pandit Jasraj", "file": "Longing Bhairavi.mp3"}
+
+    ],
+    "tensed": [
+        {"title": "Raag Miyan ki Todi", "artist": "Pandit Ravi Shankar", "file": "Sitar Todi Tensed.mp3"},
+        {"title": "Raag Shree", "artist": "Nikhil Banerjee", "file": "Sitar Todi Tensed.mp3.mp3"},
+        {"title": "Raag Hemavati", "artist": "Ustad Vilayat Khan", "file": "Sitar Todi Tensed.mp3"},
+        {"title": "Raag Jog", "artist": "Pandit Ravi Shankar", "file": "Sitar Todi Tensed.mp3"},
+        {"title": "Raag Deshkar", "artist": "Pandit Ravi Shankar", "file": "Sitar Todi Tensed.mp3"},
+        {"title": "Raag Bhairav", "artist": "Pandit Ravi Shankar", "file": "Sitar Todi Tensed.mp3"}
+        
+    ],
+    "calm": [
+        {"title": "Raag Miyan ki Malhar", "artist": "Shahid Parvez", "file": "Calm Malhar.mp3"},
+        {"title": "Raag Anand Bhairavi", "artist": "Artist 8", "file": "Calm Malhar.mp3"},
+        {"title": "Raag Charukeshi", "artist": "Shahid Parvez", "file": "Calm Malhar.mp3"},
+        {"title": "Raag Patdeep", "artist": "Shahid Parvez", "file": "Calm Malhar.mp3"},
+        {"title": "Raag Megh", "artist": "Shahid Parvez", "file": "Calm Malhar.mp3"},
+        {"title": "Raag Gaud Malhar", "artist": "Shahid Parvez", "file": "Calm Malhar.mp3"}
+    ],
+    "romantic": [
+        {"title": "Raag Pilu", "artist": "Hari Prasad Chaurasia", "file": "Romantic Pilu.mp3"},
+        {"title": "Raag Tilak Kamod", "artist": "Kumar Gandharva", "file": "Romantic Pilu.mp3"},
+        {"title": "Raag Madhuvanti", "artist": "Kishori Amonkar", "file": "Romantic Pilu.mp3"},
+        {"title": "Raag Bageshri", "artist": "Parveen Sultana", "file": "Romantic Pilu.mp3"},
+        {"title": "Raag Khamaj", "artist": "Pandit Sajan Mishra", "file": "Romantic Pilu.mp3"},
+        {"title": "Raag Kafi", "artist": "Rakesh Chaurasia", "file": "Romantic Pilu.mp3"}
+    ],
+    "sad": [
+        {"title": "Raag Shivranajani", "artist": "Naitik Khambadiya", "file": "Sad Shivranjani.mp3"},
+        {"title": "Raag Darbari", "artist": "Dhiranj Kant", "file": "Romantic Pilu.mp3"},
+        {"title": "Raag Malkauns", "artist": "Sajan Mishra", "file": "Romantic Pilu.mp3"},
+        {"title": "Raag Sindhi Bhairavi", "artist": "Shyam Gwalior", "file": "Romantic Pilu.mp3"},
+        {"title": "Raag Ahir Bhairav", "artist": "Purbyan Chatterjee", "file": "Romantic Pilu.mp3"},
+        {"title": "Raag Asavari", "artist": "Rakesh Chaurasia", "file": "Romantic Pilu.mp3"}
+    ]
+}

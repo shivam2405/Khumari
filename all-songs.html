@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container flex bgblack">
+        <div class="right bggrey rounded">
+            <div class="header bggrey2" style="  background-image: url(Shivam.png);">
+                <div class="head-content">
+                    <div class="search">
+                        <input type="search" placeholder="Search">
+                    </div>
+                    <div class="content">
+                        <h1 id="mood-title">All Songs</h1>
+                        <p>Explore songs from various moods and genres.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="all-songs-link">
+                <button id="start-random">Start Random</button>
+            </div>
+            <div class="playlists">
+                <div id="song-list" class="cardcontainer"></div>
+            </div>
+        </div>
+    </div>
+    <div class="music-player">
+        <audio id="audio-player" controls>
+            <source id="audio-source" src="" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <div class="controls">
+            <button id="prev-song">Prev</button>
+            <button id="play-pause">Play</button>
+            <button id="next-song">Next</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
